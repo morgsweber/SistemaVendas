@@ -20,12 +20,12 @@ public class ServicoDeProduto{
         return produtoRep.todos();
     }
 
-    public boolean cadastra(){
-        return produtoRep.cadastra();
+    public boolean cadastra(Produto prod){
+        return produtoRep.cadastra(prod);
     }
 
-    public Produto getProduto(){
-        return produtoRep.getProduto();
+    public Produto getProduto(int cod){
+        return produtoRep.getProduto(cod);
     }
 
     public boolean deleta(){

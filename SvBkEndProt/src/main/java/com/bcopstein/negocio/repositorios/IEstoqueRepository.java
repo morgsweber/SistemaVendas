@@ -4,7 +4,8 @@ import java.util.*;
 
 public interface IEstoqueRepository{
     List<ItemEstoque> todos();
-    boolean cadastra();
-    ItemEstoque getEstoque();
+    boolean cadastra(ItemEstoque item);
+    ItemEstoque getEstoque(int cod);
     boolean deleta();
+    boolean remove(ItemEstoque item, int qtd);
 }

@@ -5,7 +5,7 @@ import java.util.*;
 
 public interface IVendasRepository{
    List<Venda> todos();
-   boolean cadastra();
+   boolean cadastra(Venda venda);
    Venda getVenda();
    List<ItemVenda> getItensVenda();
 }

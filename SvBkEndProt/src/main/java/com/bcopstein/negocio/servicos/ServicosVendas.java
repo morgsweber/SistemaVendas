@@ -22,8 +22,8 @@ public class ServicosVendas{
        return vendasRep.todos(); 
     }
 
-    public boolean cadastra(){
-        return vendasRep.cadastra();
+    public boolean cadastra(Venda venda){
+        return vendasRep.cadastra(venda);
     }
 
     public List<ItemVenda> getItensVenda(){

@@ -1,26 +1,23 @@
 package com.bcopstein.negocio.entidades;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class ItemVenda{
 
     @Id 
-    private int id;
+    @GeneratedValue(strategy=GenerationType.AUTO)
+    private long id;
     private int quantidade;
-    private float precoUnitVenda;
-    private float imposto;
+    private double precoUnitVenda;
 
-    public ItemVenda(int id, int quantidade, float precoUnitVenda, float imposto){
-        this.id = id;
+    public ItemVenda(int quantidade, double precoUnitVenda){
         this.quantidade = quantidade;
         this.precoUnitVenda = precoUnitVenda;
-        this.imposto = imposto;
     }
 
     protected ItemVenda(){}
 
-    public void setId(int id){
+    public void setId(long id){
         this.id = id;
     }
 
@@ -28,15 +25,11 @@ public class ItemVenda{
         this.quantidade = quantidade;
     }
 
-    public void setPrecoUnitVenda(float precoUnitVenda){
+    public void setPrecoUnitVenda(double precoUnitVenda){
         this.precoUnitVenda = precoUnitVenda;
     }
 
-    public void setImposto(float imposto){
-        this.imposto = imposto;
-    }
-
-    public int getId(){
+    public long getId(){
         return id;
     }
 
@@ -44,12 +37,8 @@ public class ItemVenda{
         return quantidade;
     }
 
-    public float getPrecoUnitVenda(){
+    public double getPrecoUnitVenda(){
         return precoUnitVenda;
-    }
-    
-    public float imposto(){
-        return imposto;
     }
 
 }

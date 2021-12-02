@@ -19,12 +19,16 @@ public class ServicosEstoque{
         return estoqueRep.todos();
     }
 
-    public boolean cadastra(){
-        return estoqueRep.cadastra();
+    public boolean cadastra(ItemEstoque item){
+        return estoqueRep.cadastra(item);
     }
 
-    public ItemEstoque getEstoque(){
-        return estoqueRep.getEstoque();
+    public ItemEstoque getEstoque(int cod){
+        return estoqueRep.getEstoque(cod);
+    }
+
+    public boolean remove(ItemEstoque item, int qtd){
+        return estoqueRep.remove(item, qtd);
     }
 
     public boolean deleta(){

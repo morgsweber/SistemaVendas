@@ -32,7 +32,7 @@ public class ItemEstoque{
         this.id = id;
     }
 
-    public void setQtdDisponivel(){
+    public void setQtdDisponivel(int qtdDisponivel){
         this.qtdDisponivel = qtdDisponivel;
     }
 
