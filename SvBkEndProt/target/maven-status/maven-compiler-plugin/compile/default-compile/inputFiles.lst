@@ -1,4 +1,28 @@
-/workspaces/Projeto e Arquitetura de Software/T1_ProtSistemaDeVendas/SvBkEndProt/src/main/java/com/bcopstein/Produto.java
-/workspaces/Projeto e Arquitetura de Software/T1_ProtSistemaDeVendas/SvBkEndProt/src/main/java/com/bcopstein/SvBkPrototipo.java
-/workspaces/Projeto e Arquitetura de Software/T1_ProtSistemaDeVendas/SvBkEndProt/src/main/java/com/bcopstein/ItemCarrinho.java
-/workspaces/Projeto e Arquitetura de Software/T1_ProtSistemaDeVendas/SvBkEndProt/src/main/java/com/bcopstein/Controller.java
+/mnt/c/Users/MorganaWeber/Documents/GitHub/SistemaVendas/SvBkEndProt/src/main/java/com/bcopstein/adaptadores/dtos/ItemCarrinho.java
+/mnt/c/Users/MorganaWeber/Documents/GitHub/SistemaVendas/SvBkEndProt/src/main/java/com/bcopstein/adaptadores/configurador/ImpostoConfigurador.java
+/mnt/c/Users/MorganaWeber/Documents/GitHub/SistemaVendas/SvBkEndProt/src/main/java/com/bcopstein/negocio/servicos/ServicosVendas.java
+/mnt/c/Users/MorganaWeber/Documents/GitHub/SistemaVendas/SvBkEndProt/src/main/java/com/bcopstein/aplicacao/servicos/ImpostoUm.java
+/mnt/c/Users/MorganaWeber/Documents/GitHub/SistemaVendas/SvBkEndProt/src/main/java/com/bcopstein/negocio/repositorios/IVendasRepository.java
+/mnt/c/Users/MorganaWeber/Documents/GitHub/SistemaVendas/SvBkEndProt/src/main/java/com/bcopstein/adaptadores/repositorios/VendasRepository.java
+/mnt/c/Users/MorganaWeber/Documents/GitHub/SistemaVendas/SvBkEndProt/src/main/java/com/bcopstein/negocio/repositorios/IProdutosRepository.java
+/mnt/c/Users/MorganaWeber/Documents/GitHub/SistemaVendas/SvBkEndProt/src/main/java/com/bcopstein/adaptadores/repositorios/IEstoqueCRUD.java
+/mnt/c/Users/MorganaWeber/Documents/GitHub/SistemaVendas/SvBkEndProt/src/main/java/com/bcopstein/negocio/servicos/ServicoDeProduto.java
+/mnt/c/Users/MorganaWeber/Documents/GitHub/SistemaVendas/SvBkEndProt/src/main/java/com/bcopstein/adaptadores/repositorios/IVendasCRUD.java
+/mnt/c/Users/MorganaWeber/Documents/GitHub/SistemaVendas/SvBkEndProt/src/main/java/com/bcopstein/aplicacao/servicos/ICalculaImposto.java
+/mnt/c/Users/MorganaWeber/Documents/GitHub/SistemaVendas/SvBkEndProt/src/main/java/com/bcopstein/negocio/entidades/Venda.java
+/mnt/c/Users/MorganaWeber/Documents/GitHub/SistemaVendas/SvBkEndProt/src/main/java/com/bcopstein/negocio/entidades/Produto.java
+/mnt/c/Users/MorganaWeber/Documents/GitHub/SistemaVendas/SvBkEndProt/src/main/java/com/bcopstein/aplicacao/servicos/ServicoImposto.java
+/mnt/c/Users/MorganaWeber/Documents/GitHub/SistemaVendas/SvBkEndProt/src/main/java/com/bcopstein/aplicacao/usecases/UC_SelecionarProduto.java
+/mnt/c/Users/MorganaWeber/Documents/GitHub/SistemaVendas/SvBkEndProt/src/main/java/com/bcopstein/negocio/repositorios/IEstoqueRepository.java
+/mnt/c/Users/MorganaWeber/Documents/GitHub/SistemaVendas/SvBkEndProt/src/main/java/com/bcopstein/adaptadores/controller/Controller.java
+/mnt/c/Users/MorganaWeber/Documents/GitHub/SistemaVendas/SvBkEndProt/src/main/java/com/bcopstein/negocio/entidades/ItemVenda.java
+/mnt/c/Users/MorganaWeber/Documents/GitHub/SistemaVendas/SvBkEndProt/src/main/java/com/bcopstein/aplicacao/usecases/UC_EfetivarVenda.java
+/mnt/c/Users/MorganaWeber/Documents/GitHub/SistemaVendas/SvBkEndProt/src/main/java/com/bcopstein/adaptadores/repositorios/EstoqueRepository.java
+/mnt/c/Users/MorganaWeber/Documents/GitHub/SistemaVendas/SvBkEndProt/src/main/java/com/bcopstein/aplicacao/servicos/ImpostoDois.java
+/mnt/c/Users/MorganaWeber/Documents/GitHub/SistemaVendas/SvBkEndProt/src/main/java/com/bcopstein/aplicacao/usecases/UC_ConsultarSubtotal.java
+/mnt/c/Users/MorganaWeber/Documents/GitHub/SistemaVendas/SvBkEndProt/src/main/java/com/bcopstein/SvBkPrototipo.java
+/mnt/c/Users/MorganaWeber/Documents/GitHub/SistemaVendas/SvBkEndProt/src/main/java/com/bcopstein/negocio/servicos/ServicosEstoque.java
+/mnt/c/Users/MorganaWeber/Documents/GitHub/SistemaVendas/SvBkEndProt/src/main/java/com/bcopstein/adaptadores/repositorios/IProdutosCRUD.java
+/mnt/c/Users/MorganaWeber/Documents/GitHub/SistemaVendas/SvBkEndProt/src/main/java/com/bcopstein/aplicacao/usecases/UC_ConsultarProduto.java
+/mnt/c/Users/MorganaWeber/Documents/GitHub/SistemaVendas/SvBkEndProt/src/main/java/com/bcopstein/adaptadores/repositorios/ProdutosRepository.java
+/mnt/c/Users/MorganaWeber/Documents/GitHub/SistemaVendas/SvBkEndProt/src/main/java/com/bcopstein/negocio/entidades/ItemEstoque.java

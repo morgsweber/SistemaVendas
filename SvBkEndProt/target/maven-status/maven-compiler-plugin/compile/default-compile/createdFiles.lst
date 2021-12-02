@@ -12,7 +12,6 @@ com/bcopstein/aplicacao/usecases/UC_SelecionarProduto.class
 com/bcopstein/negocio/entidades/ItemEstoque.class
 com/bcopstein/aplicacao/usecases/UC_ConsultarSubtotal.class
 com/bcopstein/adaptadores/repositorios/IProdutosCRUD.class
-com/bcopstein/adaptadores/controller/CtrlSistemaVendasController.class
 com/bcopstein/adaptadores/repositorios/IEstoqueCRUD.class
 com/bcopstein/aplicacao/servicos/ImpostoDois.class
 com/bcopstein/adaptadores/repositorios/VendasRepository.class
@@ -21,6 +20,7 @@ com/bcopstein/aplicacao/servicos/ImpostoUm.class
 com/bcopstein/negocio/servicos/ServicoDeProduto.class
 com/bcopstein/negocio/entidades/Produto.class
 com/bcopstein/adaptadores/dtos/ItemCarrinho.class
+com/bcopstein/adaptadores/controller/Controller.class
 com/bcopstein/adaptadores/repositorios/EstoqueRepository.class
 com/bcopstein/aplicacao/usecases/UC_ConsultarProduto.class
 com/bcopstein/adaptadores/repositorios/IVendasCRUD.class

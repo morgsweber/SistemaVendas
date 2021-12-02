@@ -6,7 +6,10 @@ import java.util.List;
 import com.bcopstein.negocio.entidades.Produto;
 import com.bcopstein.adaptadores.dtos.ItemCarrinho;
 
-import com.bcopstein.aplicacao.usecases.*;
+import com.bcopstein.aplicacao.usecases.UC_ConsultarProduto;
+import com.bcopstein.aplicacao.usecases.UC_ConsultarSubtotal;
+import com.bcopstein.aplicacao.usecases.UC_EfetivarVenda;
+import com.bcopstein.aplicacao.usecases.UC_SelecionarProduto;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,15 +22,16 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 @RestController
 @RequestMapping("/vendas")
-public class CtrlSistemaVendasController {
+public class Controller {
   private UC_ConsultarProduto consultarProduto;
   private UC_ConsultarSubtotal consultarSubtotal;
   private UC_EfetivarVenda efetivarVenda;
   private UC_SelecionarProduto selecionarProduto;
 
   @Autowired
-  public CtrlSistemaVendasController(UC_ConsultarProduto consultarProduto, UC_ConsultarSubtotal consultarSubtotal,
+  public Controller(UC_ConsultarProduto consultarProduto, UC_ConsultarSubtotal consultarSubtotal,
                                       UC_EfetivarVenda efetivarVenda, UC_SelecionarProduto selecionarProduto) {
+                                        
                                         this.consultarProduto = consultarProduto;
                                         this.consultarSubtotal = consultarSubtotal;
                                         this.efetivarVenda = efetivarVenda;
