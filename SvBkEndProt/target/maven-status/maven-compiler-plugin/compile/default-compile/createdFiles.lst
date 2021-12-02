@@ -1,4 +1,13 @@
-com/bcopstein/Produto.class
-com/bcopstein/Controller.class
+com/bcopstein/negocio/entidades/Venda.class
+com/bcopstein/negocio/entidades/ItemEstoque.class
+com/bcopstein/negocio/repositorios/IVendasRepository.class
+com/bcopstein/negocio/repositorios/IProdutosRepository.class
+com/bcopstein/negocio/servicos/ServicoDeProduto.class
 com/bcopstein/ItemCarrinho.class
+com/bcopstein/negocio/entidades/Produto.class
+com/bcopstein/negocio/entidades/ItemVenda.class
 com/bcopstein/SvBkPrototipo.class
+com/bcopstein/Controller.class
+com/bcopstein/negocio/servicos/ServicosEstoque.class
+com/bcopstein/negocio/repositorios/IEstoqueRepository.class
+com/bcopstein/negocio/servicos/ServicosVendas.class
