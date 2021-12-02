@@ -30,7 +30,7 @@ public class EstoqueRepository implements IEstoqueRepository{
 
     @Override
     public ItemEstoque getEstoque(int cod){
-        return estoqueCRUD.findByCodProduto(cod);
+        return estoqueCRUD.findByIdProduto(cod);
     }
 
     @Override

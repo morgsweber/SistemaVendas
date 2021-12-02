@@ -5,7 +5,7 @@ INSERT INTO produto (codigo, descricao, preco) VALUES (4, 'Lava Roupa', 3350.0);
 INSERT INTO produto (codigo, descricao, preco) VALUES (5, 'Aspirador de pó', 900.0);
 
 
-INSERT INTO item_estoque (id, qtdDisponivel, idProduto) VALUES (1, 3, 1);
-INSERT INTO item_estoque (id, qtdDisponivel, idProduto) VALUES (2, 4, 2);
-INSERT INTO item_estoque (id, qtdDisponivel, idProduto) VALUES (3, 0, 3);
-INSERT INTO item_estoque (id, qtdDisponivel, idProduto) VALUES (4, 1, 4);
+INSERT INTO item_estoque (id, qtd_disponivel, id_produto) VALUES (1, 3, 1);
+INSERT INTO item_estoque (id, qtd_disponivel, id_produto) VALUES (2, 4, 2);
+INSERT INTO item_estoque (id, qtd_disponivel, id_produto) VALUES (3, 0, 3);
+INSERT INTO item_estoque (id, qtd_disponivel, id_produto) VALUES (4, 1, 4);

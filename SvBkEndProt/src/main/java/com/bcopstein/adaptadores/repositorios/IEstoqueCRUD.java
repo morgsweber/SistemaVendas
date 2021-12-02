@@ -6,5 +6,5 @@ import org.springframework.data.repository.CrudRepository;
 
 public interface IEstoqueCRUD extends CrudRepository<ItemEstoque, Integer> {
     List<ItemEstoque> findAll();
-    ItemEstoque findByCodProduto(int idProduto);
+    ItemEstoque findByIdProduto(int idProduto);
 }
