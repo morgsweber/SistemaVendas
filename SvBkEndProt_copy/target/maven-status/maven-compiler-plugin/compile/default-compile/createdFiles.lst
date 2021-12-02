@@ -1,0 +1,4 @@
+com/bcopstein/negocio/ItemEstoque.class
+com/bcopstein/negocio/Produto.class
+com/bcopstein/repository/EstoqueRepository.class
+com/bcopstein/repository/ProdutosRepository.class
